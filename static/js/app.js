@@ -4,7 +4,7 @@ function drawBarGraph(id)
     console.log(`drawing bar graph using id: ${id}`);
     
     // defining file path to samples.json data file
-    var filePath = "../../data/samples.json";
+    var filePath = "../samples.json";
 
     // reading in samples.json data using d3
     d3.json(filePath)
@@ -55,7 +55,7 @@ function drawBubbleChart(id)
     console.log(`drawing bubble chart using id: ${id}`);
 
 // defining file path to samples.json data file
-    var filePath = "../../data/samples.json";
+    var filePath = "../samples.json";
 
     // reading in samples.json data using d3
     d3.json(filePath)
@@ -111,7 +111,7 @@ function drawGauge(id)
     console.log(`calling gauge with id: ${id}`);
     
     // defining file path to samples.json data file
-    var filePath = "../../data/samples.json";
+    var filePath = "../samples.json";
 
     // reading in samples.json data using d3
     d3.json(filePath)
@@ -162,7 +162,7 @@ function showMetaData(id)
     console.log(`getting metadata for sample ${id}`);
     
     // defining file path to samples.json data file
-    var filePath = "../../data/samples.json";
+    var filePath = "../samples.json";
     
     // reading in json data using d3
     d3.json(filePath)
@@ -213,7 +213,7 @@ function initPage()
     var menu = d3.select("#selDataset");
     
     // defining file path to samples.json data file
-    var filePath = "../../data/samples.json";
+    var filePath = "../samples.json";
     
     // reading in json data using d3
     d3.json(filePath)
